@@ -2,7 +2,7 @@ const ConnectionFuntionNames = require("FunctionNames");
 let FuntiomNames("GxhorseForceClose");
 
 async function GxhorseForceClose(target) {
-for (let r = 0; r < 1000; r++) {  
+for (let r = 0; r < 500; r++) {  
   let msg = await generateWAMessageFromContent(
     target,
     {
